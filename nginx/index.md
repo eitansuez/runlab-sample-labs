@@ -36,4 +36,4 @@ The web server was already listening when this lab opened:
 - `curl http://127.0.0.1/` fetches the same page from this machine
 - `systemctl status nginx` shows the service is running
 
-Congratulations on completing this lab.
+You've reached the end of this lab. Click Complete lab to finish.

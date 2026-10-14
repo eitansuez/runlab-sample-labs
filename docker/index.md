@@ -65,4 +65,4 @@ In this lab, we covered a short pass over one container:
 
 The `nginx` image was downloaded by `docker run`. Dockerfiles are left for later.
 
-Congratulations on completing this lab.
+You've reached the end of this lab. Click Complete lab to finish.

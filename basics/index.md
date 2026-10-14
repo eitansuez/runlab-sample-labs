@@ -67,5 +67,4 @@ In this lab, we covered the basics of navigating the file system:
 - `mkdir` to create subdirectories
 - `cd` for changing the current working directory, or otherwise navigating to a different "spot" in the filesystem.
 
-Congratulations on completing this lab.
-
+You've reached the end of this lab. Click Complete lab to finish.
