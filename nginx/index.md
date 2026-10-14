@@ -8,6 +8,8 @@ This lab opens a machine where nginx is already running. You do not start it.
 
 Click nginx in the bar at the top. It opens in a new browser tab.
 
+You can also [click through to the service](service:nginx) from the lab instructions.
+
 The page is nginx's welcome page.
 
 ## See it from this machine

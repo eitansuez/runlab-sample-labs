@@ -2,10 +2,10 @@ title: Nginx basics
 description: Open a lab where nginx is already serving a page.
 # The story checks that nginx is serving, and the build saves that machine.
 snapshots:
-  - serving
+- serving
 # The bar above the lesson. The link opens on its own hostname so the
 # guest still serves / at the root of this port.
 services:
-  - name: nginx
-    port: 80
-    path: /
+- name: nginx
+  port: 80
+  path: /
