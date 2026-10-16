@@ -43,4 +43,8 @@ if [ ! -f "$welcome" ]; then
   echo "nginx welcome page is missing" >&2
   exit 1
 fi
-sed -i 's|</body>|<p>Hello from runlab.</p>\n</body>|' "$welcome"
+if ! grep -q '<h1>Welcome to nginx!</h1>' "$welcome"; then
+  echo "nginx welcome heading is missing" >&2
+  exit 1
+fi
+sed -i 's|<h1>Welcome to nginx!</h1>|<h1>Hello from runlab!</h1>|' "$welcome"
